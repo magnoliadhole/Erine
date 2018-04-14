@@ -1,0 +1,11 @@
+.smut-provider {
+    grid-area: smut;
+}
+
+.game-navigation {
+    grid-area: game-nav;
+}
+
+.charater-stats {
+    grid-area: char-stats;
+}
