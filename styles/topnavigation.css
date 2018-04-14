@@ -1,46 +1,39 @@
-* {
-    box-sizing: border-box;
-}
-
+/* biggest piece of shit my whole life */
 
 nav {
-    background-color: seashell;
-    overflow: hidden;
     width: 100%;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: seashell;
+    font-size: 20px;
 }
 
 .title-area {
-    float: left;
-    min-height: 1px;
+    flex-grow: 1;
 }
 
-.title-name {
-    padding: 10px;
-    float: left;
+.title-area p {
+    height: 100%;
     text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding: 5px;
 }
 
 nav ul {
     list-style-type: none;
-    float:right;
     margin: 0;
+    display: flex
 }
 
 nav ul li {
     list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    display: block;
     width: 150px;
-    float: right;
+    height: 100%;
     text-align: center;
-    border-right: 2px solid black;
-    border-left: none;
-}
-
-nav ul li:last-child{
-    border-left: 2px solid black;
+    padding: 10px;
+    border-left: 2px solid rgb(17, 16, 16);
 }
 
 nav li:hover {

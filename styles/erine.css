@@ -1,2 +1,32 @@
 @import url("topnavigation.css");
-@import url("explore.css")
+@import url("explore.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.explore-screen {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 50px 1fr;
+    height: 100vh;
+}
+
+.main-grid > div {
+    text-align: center;
+    font-size: 30px;
+}
