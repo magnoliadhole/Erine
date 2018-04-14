@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: seashell;
+    overflow: hidden;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.title-area {
+    float: left;
+    min-height: 1px;
+}
+
+.title-name {
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    float:right;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    float: right;
+    text-align: center;
+    border-right: 2px solid black;
+    border-left: none;
+}
+
+nav ul li:last-child{
+    border-left: 2px solid black;
+}
+
+nav li:hover {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+/* Don't need this atm */
+nav ul li.active {
+    background-color: #4CAF50;
+    color: white;
+}
