@@ -7,7 +7,6 @@
     <title>Erine Prototype</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/erine.css" />
-    <script src="scripts/erine.js"></script>
 </head>
 
 <body>
@@ -25,32 +24,52 @@
         </nav>
 
 
-        <div class="erine-explore-mode">
-            <div class="erine-smut-provider">art goes here</div>
-            <div class="erine-game-navigation">Navigation goes here</div>
-            <div class="character-info">
+        <div class=game-screen>
 
-                <span class="character-class">
-                    <p>Class: Maw Snuggler</p>
-                </span>
-                <ul>
-                    <li>times eaten: 362</li>
-                    <li>times cuddled: 923</li>
-                    <li>favourite pred: dragons</li>
-                    <li>lust: 74</li>
-                </ul>
+            <div id="erine-start-menu">
+                <p>"this is how shit starts"</p>
+                <button id="start-game">Start</button>
+            </div>
 
+            <div id="erine-explore-mode">
+                <div class="erine-smut-provider">art goes here</div>
+                <div class="erine-game-navigation">Navigation goes here</div>
+                <div class="character-info">
+
+                    <span class="character-class">
+                        <p>Class: Maw Snuggler</p>
+                    </span>
+                    <ul>
+                        <li>times eaten: 362</li>
+                        <li>times cuddled: 923</li>
+                        <li>favourite pred: dragons</li>
+                        <li>lust: 74</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="erine-save-screen">
+                <p>"some save screen shit"</p>
+                <button id=saveGame>Save Game</button>
+            </div>
+
+            <div id="erine-vn-mode">
+                <p>VN style bitches</p>
+                <button id="dunno">"whatup"</button>
             </div>
         </div>
 
-        <div class="erine-save-screen">
-            "some save screen shit"
-        </div>
 
-        <div class="erine-start-menu">
-            "this is how shit starts"
-        </div>
 
+
+    </div>
+
+    <script src="scripts/erine.js"></script>
+    <script src="scripts/exploreMode.js"></script>
+    <script src="scripts/saveScreen.js"></script>
+    <script src="scripts/startMenu.js"></script>
+    <script src="scripts/vnMode.js"></script>
 </body>
 
 </html>

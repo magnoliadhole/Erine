@@ -1,34 +1,35 @@
-@import url("topnavigation.css");
-@import url("explore.css");
+@import url("topNavigation.css");
+@import url("exploreMode.css");
+@import url("saveScreen.css");
+@import url("vnMode.css");
+@import url("startMenu.css");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .main-grid {
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 50px 1fr;
-    height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+  height: 100vh;
 }
 
 .nav {
-    grid-column: 1;
-    grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.explore-screen {
-    grid-column: 1;
-    grid-row: 2;
+.game-screen {
+  grid-column: 1;
+  grid-row: 2;
 }
-
-
 
 .main-grid > div {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
