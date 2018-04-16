@@ -1,48 +1,48 @@
 /* biggest piece of shit my whole life */
 
 nav {
-    width: 100%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    background-color: seashell;
-    font-size: 20px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: seashell;
+  font-size: 20px;
 }
 
 .title-area {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .title-area p {
-    height: 100%;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    padding: 5px;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  padding: 5px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    display: flex
+  list-style-type: none;
+  margin: 0;
+  display: flex;
 }
 
 nav ul li {
-    list-style-type: none;
-    width: 150px;
-    height: 100%;
-    text-align: center;
-    padding: 10px;
-    border-left: 2px solid rgb(17, 16, 16);
+  list-style-type: none;
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  border-left: 2px solid rgb(17, 16, 16);
 }
 
 nav li:hover {
-    background-color: rgb(43, 43, 43);
-    color: white;
+  background-color: rgb(43, 43, 43);
+  color: white;
 }
 
 /* Don't need this atm */
 nav ul li.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
