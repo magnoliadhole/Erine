@@ -14,7 +14,7 @@
 
         <!-- always at the top -->
         <nav>
-            <div class=title-area>
+            <div id=title-area>
                 <p>Erine Prototype</p>
             </div>
             <ul>
@@ -27,8 +27,11 @@
         <div class=game-screen>
 
             <div id="erine-start-menu">
-                <p>"this is how shit starts"</p>
-                <button id="start-game">Start</button>
+                <p>"it's a game lol"</p>
+                <button id="erine-start-game">New Game</button>
+                <button id="erine-continue-game">Continue</button>
+                <button class="erine-load-game">Load save</button>
+                <button class="erine-save-game">Save game. Why would you save here? for testing the modal of course</button>
             </div>
 
             <div id="erine-explore-mode">
@@ -36,22 +39,25 @@
                 <div class="erine-game-navigation">Navigation goes here</div>
                 <div class="character-info">
 
-                    <span class="character-class">
-                        <p>Class: Maw Snuggler</p>
+                    <span id="character-info">
+                        <p id="character-class">Class: Maw Snuggler</p>
+                        <p>The class should say morsel if loaded from JS. Rest of the attributes to be added</p>
                     </span>
                     <ul>
-                        <li>times eaten: 362</li>
-                        <li>times cuddled: 923</li>
-                        <li>favourite pred: dragons</li>
+                        <li id="times-eaten">times eaten: 362</li>
+                        <li id="times-cuddled">times cuddled: 923</li>
+                        <li id="favourite-pred">favourite pred: dragons</li>
                         <li>lust: 74</li>
                     </ul>
 
                 </div>
             </div>
 
-            <div id="erine-save-screen">
+            <div id="erine-saves-modal">
                 <p>"some save screen shit"</p>
-                <button id=saveGame>Save Game</button>
+                <button class="erine-save-slot">empty</button>
+                <button class="erine-save-slot">empty</button>
+                <button class="erine-save-slot">empty</button>
             </div>
 
             <div id="erine-vn-mode">
@@ -60,14 +66,11 @@
             </div>
         </div>
 
-
-
-
     </div>
 
     <script src="scripts/erine.js"></script>
     <script src="scripts/exploreMode.js"></script>
-    <script src="scripts/saveScreen.js"></script>
+    <script src="scripts/saveModal.js"></script>
     <script src="scripts/startMenu.js"></script>
     <script src="scripts/vnMode.js"></script>
 </body>

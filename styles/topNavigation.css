@@ -9,11 +9,11 @@ nav {
   font-size: 20px;
 }
 
-.title-area {
+#title-area {
   flex-grow: 1;
 }
 
-.title-area p {
+#title-area p {
   height: 100%;
   text-align: center;
   margin: 0;
